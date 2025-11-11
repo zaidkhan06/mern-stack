@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Html</title>
+</head>
+<body>
+    <form>
+        <input placeholder="search your city" type="search"> <br> <br>
+        <label for="name">Name:</label>
+        <input required type="text" placeholder="Enter your name" id="name" name="name"><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input required type="tel" placeholder="Enter your phone number" id="phone" name="phone"><br><br>
+
+        <label for="age">Age:</label>
+        <input required type="number" placeholder="Enter your age" id="age" name="age" min="18" max="100" value="18"><br><br>
+
+        <label for="email">Email:</label>
+        <input required type="email" placeholder="enter your email" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label>
+        <input  required type="password" placeholder="enter your password" id="password" name="password"><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input required type="date" id="dob" name="dob"><br><br>
+
+        <label for="file">Upload your resume</label>
+        <input type="file" id="file" name="file"> <br><br>
+
+        <label for="gender">Male</label>
+        <input checked type="radio" name="gender"> 
+        <label for="gender">Female</label>
+        <input type="radio" name="gender">
+        <label for="gender">Others</label>
+        <input type="radio" name="gender">
+        <br> <br>
+
+        <label for="group">Select your group:</label>
+        <select name="category" id="group">
+            <option value="Group1">Group A</option>
+            <option value="Group2">Group B</option>
+            <option selected value="Group3">Group C</option>
+        </select> <br><br>
+        
+
+        <label for="terms">I agree to the terms and conditions</label> 
+        <input type="checkbox" id="terms"> <br> <br>
+
+
+        <textarea rows="5" cols="30" maxlength="10"></textarea> <br> <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        
+    </form>
+</body>
+</html>
