@@ -7,6 +7,7 @@ body{
     background-color: #191919;
     color: white;
     position: relative;
+     overflow-x: hidden;
 }
 header{
     width: 100%;
@@ -86,6 +87,8 @@ nav a:hover{
     background-color: #2C2022;
     border: 2px solid #A78950;
     rotate: 45deg;
+    position: relative;
+    z-index: 10;
     
 }
 #cover-parent-container{
@@ -94,10 +97,18 @@ nav a:hover{
     justify-content: center;
     position: relative;
 }
+#golden-leaf{
+    position: absolute;
+    top: -20%;
+    left: -22%;
+    rotate: -45deg;
+    z-index: -1;
+}
 .product-details{
     text-align: center;
     rotate: -45deg;
     margin-right: 15px;
+    position: relative;
 
 
 }
@@ -118,7 +129,13 @@ nav a:hover{
     width: 100%;
     display: flex;
     justify-content: space-around;
-   
+    position: relative;
+    
+}
+#dino{
+    position: absolute;
+    top: -25%;
+    left: 0;
 }
 .promo-item{
      position: relative;
@@ -133,6 +150,7 @@ nav a:hover{
     font-size: larger;
     font-weight: bolder;
     color: black;
+    border-radius: 40px;
    
 }
 #disc{
@@ -154,8 +172,9 @@ nav a:hover{
 }
 
 .footer-column h3 {
-    color: gray;
+    color: rgb(63, 62, 62);
     font-size: 20px;
+    font-weight: bolder;
     margin-bottom: 15px;
     font-weight:900;
 }
