@@ -52,7 +52,6 @@ body{
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    
     gap: 7px;
 }
 
@@ -236,6 +235,7 @@ footer{
     border: 1px solid white;
     padding: 10px 8px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .f-item:hover{
     color: yellow;
@@ -246,6 +246,7 @@ footer{
 .footer-links{
     width: 100%;
      background-color: #222222;
+     opacity: 0.8;
      padding: 10px 15px;
      border-radius: 10px;
 
