@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #parent {
+            width: 100%;
+            background-color: bisque;
+            color: brown;
+
+        }
+
+        #child {
+            width: 40%;
+            margin: auto;
+            padding: 10px;
+            border: 2px solid brown;
+        }
+
+        input,
+        textarea,
+        select {
+            margin-top: 30px;
+            padding: 8px;
+            border: 2px solid brown;
+            margin-left: 180px;
+            width: 60%;
+            
+
+
+        }
+
+        #btn {
+            width: 20%;
+            padding: 10px;
+            border: 2px solid brown;
+            color: brown;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="child">
+            <form action="">
+                <table>
+                    <tr>
+                        <td> <label for="name">Name</label></td>
+                        <td> <input type="text" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="bio">Bio</label></td>
+                        <td><textarea id="bio"></textarea></td>
+
+                    </tr>
+                    <tr>
+                        <td><label for="photo">Photo</label></td>
+                        <td><input type="file" id="photo"></td>
+
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td><select name="" id="gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Birthday</label></td>
+                        <td> <input type="date" id="dob"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" id="email"></td>
+
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><input type="password" id="password" placeholder="Use a strong password."></td>
+                    </tr>
+                    <tr>
+                        <td><label for="quantity">Quantity</label></td>
+                        <td><input type="number" id="quantity"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="search">Search</label></td>
+                        <td> <input type="search" id="search"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="range">Range</label></td>
+                        <td><input type="range" id="range"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="color">Color</label></td>
+                        <td><input type="color" id="color"></td>
+
+                    </tr>
+                </table>
+                ;
+                <br>
+                <button id="btn">Submit</button>
+
+            </form>
+
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

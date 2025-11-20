@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #parent-container {
+            width: 100%;
+            height: auto;
+           background-color: #FFFFFF;
+    
+        }
+
+        h1 {
+            background-color: #125780;
+            text-align: center;
+            color: white;
+        }
+
+        .reg-form {
+            width: 43%;
+            margin: auto;
+            background-color: #FFFFFF;
+            padding: 5px;
+            
+
+        }
+        input {
+            margin-top: 10px;
+            padding: 10px;
+    
+        }
+        label {
+            margin-top: 10px;
+            
+        }
+        select {
+            margin-top: 10px;
+        }
+        #email {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #phone {
+            margin-top: 10px;
+        }
+        #email input {
+            width: 100%;
+        }
+        #city{
+            width: 40%;
+        }
+        #country{
+            width: 40%;
+        }
+        #place {
+            margin-top: 10px;
+        }
+        select {
+            padding: 10px;
+           
+        }
+        #btn {
+            margin-top: 10px;
+            width: 100%;
+            padding: 10px;
+            background-color: #2B95D3;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent-container">
+        
+        <div class="reg-form">
+             <h1>Registration Form</h1>
+            <form action="">
+               
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="First Name">
+                <label for="last-name">Last Name</label>
+
+                <input type="text" id="last-name" placeholder="Last Name">
+
+                <div id="email">
+                    <label for="email">Email Address</label>
+                    <br>
+                    <input type="email" id="email">
+                    <br>
+                    <label id="phone" for="phone">Phone</label>
+                    <input type="tel" id="phone">
+                </div>
+
+               <div id="place">
+                 <label for="city">City</label>
+                <select id="city">
+                    <option value="indore">Indore</option>
+                </select>
+
+                <label for="country">Country</label>
+                <select  id="country">
+                    <option value="india">India</option>
+                </select>
+               </div>
+
+
+                <input id="btn" type="submit" value="Get Started">
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

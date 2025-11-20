@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+nav{
+    width: 1324px;
+    margin: 0 auto;
+    padding: 14px;
+    background-color: aqua;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links input {
+    padding: 0 0 0 38px;
+}

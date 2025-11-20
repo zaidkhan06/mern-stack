@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Relative */
+/* .div1{
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    border: 2px solid;
+    position: relative;
+    left: 3em;
+} */
+
+/* Absolute without z index */
+/* .parentDiv{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    border: 2px solid;
+    position: relative;
+
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+} */
+
+
+/* Absolute property with z-index */
+/* 
+.parentDiv{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    border: 2px solid;
+    position: relative;
+
+}
+.item{
+     width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+}
+#one{
+    background-color: red;
+    z-index: 10;
+    left: 10%;
+    top: 10%;
+    border: 2px solid;
+}
+#two{
+    background-color: brown;
+    border: 2px solid;
+
+} */
+
+
+/* .Fixed{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+}
+.parent{
+    background-color: rgb(43, 182, 182);
+    width: 100%;
+    height: vh;
+} */
+
+
+
+.parent{
+    height: 500px;
+    width: 200px;
+    background-color: blue;
+}
+.child{
+    width: 80px;
+    height: 80pz;
+    background-color: brown;
+    position: sticky;
+    left: 4em;
+    top: 10em;
+}

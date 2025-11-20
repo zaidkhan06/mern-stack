@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+
+    <head>
+        <style>
+            .container {
+                width: 100%;
+                height: auto;
+                background-color: antiquewhite;
+            }
+
+            .card {
+                width: 400px;
+                background-color: aquamarine;
+                padding: 10px;
+                margin: auto;
+
+            }
+
+            .image-parent-container {
+                position: relative;
+            }
+
+            .child-container {
+                position: absolute;
+                top: 77%;
+                color: white;
+                background-color: blue;
+
+            }
+
+            img {
+                border-radius: 20px;
+                
+
+            }
+            #rating {
+                float: right;
+
+            }
+        </style>
+    </head>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- Image Container -->
+            <div class="image-parent-container">
+                <img width="100%"
+                    src="https://b.zmtcdn.com/data/pictures/9/18602729/736605e7303c4b2d333add9e5bab9a1c_o2_featured_v2.jpg?output-format=webp"
+                    alt="food">
+                <div class="child-container">
+                    <span>Flat 30% OFF</span>
+                </div>
+            </div>
+            <span id="food-name">Mahadev Restaurant</span><span id="rating">4.4</span>
+            <br>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
